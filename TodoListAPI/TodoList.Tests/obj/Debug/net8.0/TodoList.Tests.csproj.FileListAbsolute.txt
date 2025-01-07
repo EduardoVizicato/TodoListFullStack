@@ -1,0 +1,15 @@
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\bin\Debug\net8.0\TodoList.Tests.deps.json
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\bin\Debug\net8.0\TodoList.Tests.runtimeconfig.json
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\bin\Debug\net8.0\TodoList.Tests.dll
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\bin\Debug\net8.0\TodoList.Tests.pdb
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.csproj.AssemblyReference.cache
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.AssemblyInfoInputs.cache
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.AssemblyInfo.cs
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.csproj.CoreCompileInputs.cache
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.sourcelink.json
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.dll
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\refint\TodoList.Tests.dll
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.pdb
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\TodoList.Tests.genruntimeconfig.cache
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Tests\obj\Debug\net8.0\ref\TodoList.Tests.dll
