@@ -58,7 +58,7 @@ namespace TodoList.Domain.Services
                 Title = taskModel.Title,
                 Description = taskModel.Description,
                 DueDate = taskModel.DueDate,
-                Status = TaskModelStatus.Status,
+                Status = TaskModelStatus.Todo,
                 CreatedDate = DateTime.UtcNow,
             };
 

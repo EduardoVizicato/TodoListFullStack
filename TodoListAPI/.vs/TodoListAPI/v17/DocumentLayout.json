@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F43CFED6-9C9D-423C-A4B1-5B7FFBF88FEC}|TodoList.Infrastructure\\TodoList.Infrastructure.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F43CFED6-9C9D-423C-A4B1-5B7FFBF88FEC}|TodoList.Infrastructure\\TodoList.Infrastructure.csproj|solutionrelative:todolist.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\models\\taskmodelstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\models\\taskmodelstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A95DFA9-C622-440E-AA5C-D8D33A5C8ABC}|TodoListAPI\\TodoListAPI.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolistapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A95DFA9-C622-440E-AA5C-D8D33A5C8ABC}|TodoListAPI\\TodoListAPI.csproj|solutionrelative:todolistapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,32 +35,12 @@
       "RelativeMoniker": "D:0:0:{1A95DFA9-C622-440E-AA5C-D8D33A5C8ABC}|TodoListAPI\\TodoListAPI.csproj|solutionrelative:todolistapi\\mappers\\taskmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\services\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\services\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F43CFED6-9C9D-423C-A4B1-5B7FFBF88FEC}|TodoList.Infrastructure\\TodoList.Infrastructure.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F43CFED6-9C9D-423C-A4B1-5B7FFBF88FEC}|TodoList.Infrastructure\\TodoList.Infrastructure.csproj|solutionrelative:todolist.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A95DFA9-C622-440E-AA5C-D8D33A5C8ABC}|TodoListAPI\\TodoListAPI.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolistapi\\dtos\\taskupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A95DFA9-C622-440E-AA5C-D8D33A5C8ABC}|TodoListAPI\\TodoListAPI.csproj|solutionrelative:todolistapi\\dtos\\taskupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\models\\taskmodelstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\models\\taskmodelstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolist.domain\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568DED3E-9BF3-400A-9B1A-F8C31377AC9A}|TodoList.Domain\\TodoList.Domain.csproj|solutionrelative:todolist.domain\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A95DFA9-C622-440E-AA5C-D8D33A5C8ABC}|TodoListAPI\\TodoListAPI.csproj|c:\\estudarprogramacao\\todolistfullstack\\todolistapi\\todolistapi\\dtos\\taskcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoListAPI\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "TodoListAPI\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoListAPI\\Controllers\\TaskController.cs",
               "RelativeToolTip": "TodoListAPI\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowEMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T12:56:25.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "TaskMapper.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoListAPI\\Mappers\\TaskMapper.cs",
               "RelativeDocumentMoniker": "TodoListAPI\\Mappers\\TaskMapper.cs",
@@ -119,12 +119,11 @@
               "RelativeToolTip": "TodoListAPI\\Mappers\\TaskMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T12:34:25.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T12:34:25.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "TaskUpdateDTO.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoListAPI\\DTOs\\TaskUpdateDTO.cs",
               "RelativeDocumentMoniker": "TodoListAPI\\DTOs\\TaskUpdateDTO.cs",
@@ -132,38 +131,37 @@
               "RelativeToolTip": "TodoListAPI\\DTOs\\TaskUpdateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T12:23:42.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T12:23:42.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Infrastructure\\Repositories\\TaskRepository.cs",
               "RelativeDocumentMoniker": "TodoList.Infrastructure\\Repositories\\TaskRepository.cs",
               "ToolTip": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Infrastructure\\Repositories\\TaskRepository.cs",
               "RelativeToolTip": "TodoList.Infrastructure\\Repositories\\TaskRepository.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwF4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T19:31:26.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "TaskModelStatus.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Domain\\Models\\TaskModelStatus.cs",
               "RelativeDocumentMoniker": "TodoList.Domain\\Models\\TaskModelStatus.cs",
               "ToolTip": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Domain\\Models\\TaskModelStatus.cs",
               "RelativeToolTip": "TodoList.Domain\\Models\\TaskModelStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T18:31:22.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ITaskService.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Domain\\Services\\Interfaces\\ITaskService.cs",
               "RelativeDocumentMoniker": "TodoList.Domain\\Services\\Interfaces\\ITaskService.cs",
@@ -171,25 +169,24 @@
               "RelativeToolTip": "TodoList.Domain\\Services\\Interfaces\\ITaskService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T18:46:29.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T18:46:29.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TaskService.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Domain\\Services\\TaskService.cs",
               "RelativeDocumentMoniker": "TodoList.Domain\\Services\\TaskService.cs",
               "ToolTip": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Domain\\Services\\TaskService.cs",
               "RelativeToolTip": "TodoList.Domain\\Services\\TaskService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T18:46:13.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "TaskModel.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Domain\\Models\\TaskModel.cs",
               "RelativeDocumentMoniker": "TodoList.Domain\\Models\\TaskModel.cs",
@@ -202,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoList.Domain\\Repositories\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "TodoList.Domain\\Repositories\\ITaskRepository.cs",
@@ -215,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoListAPI\\Program.cs",
               "RelativeDocumentMoniker": "TodoListAPI\\Program.cs",
@@ -223,8 +220,7 @@
               "RelativeToolTip": "TodoListAPI\\Program.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T20:31:05.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T20:31:05.465Z"
             },
             {
               "$type": "Document",
@@ -236,8 +232,7 @@
               "RelativeToolTip": "TodoListAPI\\DTOs\\TaskCreateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T12:23:29.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T12:23:29.793Z"
             },
             {
               "$type": "Document",
@@ -249,8 +244,7 @@
               "RelativeToolTip": "TodoListAPI\\DTOs\\TaskDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T12:23:21.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T12:23:21.266Z"
             },
             {
               "$type": "Document",
@@ -262,8 +256,7 @@
               "RelativeToolTip": "TodoList.Infrastructure\\TodoList.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-07T19:16:55.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T19:16:55.701Z"
             },
             {
               "$type": "Document",
@@ -275,21 +268,19 @@
               "RelativeToolTip": "TodoListAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-07T20:30:02.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T20:30:02.302Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "TodoListAPI",
+              "Title": "TodoListAPI.csproj",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj",
               "RelativeDocumentMoniker": "TodoListAPI\\TodoListAPI.csproj",
               "ToolTip": "C:\\ESTUDARPROGRAMACAO\\TodoListFullStack\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj",
               "RelativeToolTip": "TodoListAPI\\TodoListAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T11:44:59.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T11:44:59.83Z"
             },
             {
               "$type": "Document",
@@ -301,8 +292,7 @@
               "RelativeToolTip": "TodoList.Infrastructure\\Data\\ApplicationDataContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:15:29.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T19:15:29.267Z"
             },
             {
               "$type": "Document",
@@ -314,8 +304,7 @@
               "RelativeToolTip": "TodoList.Infrastructure\\Migrations\\20250107203622_Create-DB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T20:36:22.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T20:36:22.263Z"
             }
           ]
         }
