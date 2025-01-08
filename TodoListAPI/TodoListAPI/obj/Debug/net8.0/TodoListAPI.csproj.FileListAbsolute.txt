@@ -1,10 +1,3 @@
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.csproj.AssemblyReference.cache
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.AssemblyInfoInputs.cache
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.AssemblyInfo.cs
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.csproj.CoreCompileInputs.cache
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.sourcelink.json
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\bin\Debug\net8.0\appsettings.json
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\bin\Debug\net8.0\TodoListAPI.staticwebassets.endpoints.json
@@ -132,6 +125,14 @@ C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\bin\Debug\net8.0
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\bin\Debug\net8.0\TodoList.Infrastructure.dll
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\bin\Debug\net8.0\TodoList.Infrastructure.pdb
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\bin\Debug\net8.0\TodoList.Domain.pdb
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.csproj.AssemblyReference.cache
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.AssemblyInfoInputs.cache
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.AssemblyInfo.cs
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.csproj.CoreCompileInputs.cache
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.sourcelink.json
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\scopedcss\bundle\TodoListAPI.styles.css
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\staticwebassets.development.json
@@ -142,10 +143,10 @@ C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TodoListAPI.props
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TodoListAPI.props
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\staticwebassets.pack.json
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoList.F0DADB25.Up2Date
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.dll
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\refint\TodoListAPI.dll
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.pdb
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\TodoListAPI.genruntimeconfig.cache
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\ref\TodoListAPI.dll
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoListAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

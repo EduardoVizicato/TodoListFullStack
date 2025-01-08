@@ -25,6 +25,10 @@
 │    │   └── TaskController.cs
 │    ├── /DTOs
 │    │   └── TaskDTO.cs
+│    │   └── TaskCreateDTO.cs
+│    │   └── TaskUpdateDTO.cs
+│    ├── /Mappers
+│    │   └── TaskMapper.cs
 │
 ├── /Shared (Class Library)
 │    ├── /Exceptions

@@ -8,99 +8,126 @@ using TodoList.Domain.Repositories;
 using TodoList.Domain.Services.Interfaces;
 using TodoList.Domain.Models;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using Microsoft.Extensions.Logging;
 
 namespace TodoList.Domain.Services
 {
     public class TaskService : ITaskService
     {
         private readonly ITaskRepository _repository;
+        private readonly ILogger<TaskService> _logger;
 
-        public TaskService(ITaskRepository repository)
+        public TaskService(ITaskRepository repository, ILogger<TaskService> logger)
         {
             _repository = repository;
+            _logger = logger;
         }
-        public async Task CompleteTask(Guid taskId)
+        public async Task<bool> CompleteTask(Guid taskId)
         {
-            var taskModel = await _repository.GetTaskByIdAsync(taskId);
-            if (taskModel == null) 
+            var taskToComplete = await _repository.GetTaskByIdAsync(taskId);
+            if (taskToComplete == null) 
             {
-                throw new KeyNotFoundException("Essa tarefa não existe");
+                throw new KeyNotFoundException($"the task with Id {taskId} does not exist!");
             }
 
-            if (taskModel.Status == TaskModelStatus.Completed) 
+            if (taskToComplete.Status == TaskModelStatus.Completed) 
             {
-                throw new InvalidOperationException("A tarefa ja está completa");
+                _logger.LogError($"Task with Id {taskId} is already completed!");
             }
-
-            taskModel.Status = TaskModelStatus.Completed;
-            await _repository.UpdateTaskAsync(taskModel);
+            _logger.LogInformation("The task has been completed");
+            taskToComplete.Status = TaskModelStatus.Completed;
+            await _repository.UpdateTaskAsync(taskToComplete);
+            return true;
         }
 
-        public async Task<Guid> CreateTask(string title, string description, DateTime? dueDate)
+        public async Task<TaskModel> CreateTask(TaskModel taskModel)
         {
-            if (string.IsNullOrEmpty(title)) 
+            if (string.IsNullOrEmpty(taskModel.Title)) 
             {
-                throw new ArgumentNullException("Coloque o título da tarefa"); 
+                _logger.LogWarning("Add a title to the task!"); 
             }
 
-            if(dueDate.HasValue && dueDate.Value < DateTime.UtcNow)
+            if(taskModel.DueDate.HasValue && taskModel.DueDate.Value < DateTime.UtcNow)
             {
-                throw new ArgumentException("A data não pode estar no passado, coloque a data de hoje ou dos dias seguintes");
+                _logger.LogWarning("The can not be in the past, add a valid date!");
             }
 
             var task = new TaskModel
             {
                 Id = Guid.NewGuid(),
-                Title = title,
-                Description = description,
-                DueDate = dueDate,
-                Status = Models.TaskModelStatus.ToDo,
+                Title = taskModel.Title,
+                Description = taskModel.Description,
+                DueDate = taskModel.DueDate,
+                Status = TaskModelStatus.Status,
                 CreatedDate = DateTime.UtcNow,
             };
 
+            _logger.LogInformation("The task has been created");
             await _repository.AddTaskAsync(task);
-            return task.Id;
+            return task;
         }
 
-        public async Task DeleteTask(Guid taskId)
+        public async Task<bool> DeleteTask(Guid taskId)
         {
-            var taskModel = await _repository.GetTaskByIdAsync(taskId);
+            var taskToDelete = await _repository.GetTaskByIdAsync(taskId);
 
-            if (taskModel == null) 
+            if (taskToDelete == null) 
             {
-                throw new ArgumentNullException("A tarefa não existe");
+                _logger.LogError($"The task with Id {taskId}does not exist!");
             }
 
             await _repository.DeleteTaskAsync(taskId);
+            return true;
         }
 
         public async Task<List<TaskModel>> GetOverdueTasks()
         {
+            _logger.LogInformation("These are the Overdue Tasks");
             var taskList = await _repository.GetAllTasksAsync();
-
             return taskList.Where(taskModel => taskModel.DueDate.HasValue && taskModel.DueDate.Value < DateTime.UtcNow).ToList();
         }
 
-        public async Task UpdateTask(Guid taskId, string title, string description, DateTime dueDate, TaskModelStatus status)
+        public async Task<TaskModel> GetTaskById(Guid taskId)
         {
-            var taskModel = await _repository.GetTaskByIdAsync(taskId);
-
-            if (taskModel == null) 
+            var tasksById = await _repository.GetTaskByIdAsync(taskId);
+            if (tasksById == null)
             {
-                throw new ArgumentNullException("A tarefa não existe");
+                _logger.LogError($"{taskId} does not exists");
             }
 
-            if (string.IsNullOrEmpty(title))
+            return tasksById;
+        }
+
+        public async Task<IEnumerable<TaskModel>> GetTasks()
+        {
+            _logger.LogInformation("These are all the Tasks");
+            var taskList = await _repository.GetAllTasksAsync();
+            return taskList;
+        }
+
+        public async Task<TaskModel> UpdateTask(Guid taskId, TaskModel taskModel)
+        {
+            var taskToUpdate = await _repository.GetTaskByIdAsync(taskId);
+
+            if (taskToUpdate == null) 
             {
-                throw new ArgumentNullException("Coloque o título da tarefa");
+                _logger.LogError($"The task with Id {taskId}does not exist!");
             }
 
-            taskModel.Title = title;
-            taskModel.Description = description;
-            taskModel.DueDate = dueDate;
-            taskModel.Status = status;
+            if (string.IsNullOrEmpty(taskModel.Title))
+            {
+                _logger.LogWarning("Add a title to the task!");
+            }
 
-            await _repository.UpdateTaskAsync(taskModel);
+            taskToUpdate.Title = taskModel.Title;
+            taskToUpdate.Description = taskModel.Description;
+            taskToUpdate.DueDate = taskModel.DueDate;
+            taskToUpdate.Status = taskModel.Status;
+
+            _logger.LogInformation($"Updating task with Id {taskToUpdate.Id}. Title changed from '{taskToUpdate.Title}' to '{taskModel.Title}'", taskToUpdate.Id);
+            await _repository.UpdateTaskAsync(taskToUpdate);
+
+            return taskToUpdate;
         }
     }
 }

@@ -1,13 +1,13 @@
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\bin\Debug\net8.0\TodoList.Domain.deps.json
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\bin\Debug\net8.0\TodoList.Domain.runtimeconfig.json
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\bin\Debug\net8.0\TodoList.Domain.dll
+C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\bin\Debug\net8.0\TodoList.Domain.pdb
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\TodoList.Domain.csproj.AssemblyReference.cache
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\TodoList.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\TodoList.Domain.AssemblyInfoInputs.cache
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\TodoList.Domain.AssemblyInfo.cs
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\TodoList.Domain.csproj.CoreCompileInputs.cache
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\TodoList.Domain.sourcelink.json
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\bin\Debug\net8.0\TodoList.Domain.deps.json
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\bin\Debug\net8.0\TodoList.Domain.runtimeconfig.json
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\bin\Debug\net8.0\TodoList.Domain.dll
-C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\bin\Debug\net8.0\TodoList.Domain.pdb
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\TodoList.Domain.dll
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\refint\TodoList.Domain.dll
 C:\ESTUDARPROGRAMACAO\TodoListFullStack\TodoListAPI\TodoList.Domain\obj\Debug\net8.0\TodoList.Domain.pdb

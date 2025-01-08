@@ -10,10 +10,12 @@ namespace TodoList.Domain.Services.Interfaces
 {
     public interface ITaskService
     {
-        Task<Guid> CreateTask(string title, string description, DateTime? dueDate);
-        Task UpdateTask(Guid taskId, string title, string description, DateTime dueDate, TaskModelStatus status);
-        Task CompleteTask(Guid taskId);
-        Task DeleteTask(Guid taskId);
+        Task<IEnumerable<TaskModel>> GetTasks();
+        Task<TaskModel> CreateTask(TaskModel taskModel);
+        Task<TaskModel> UpdateTask(Guid taskId, TaskModel taskModel);
+        Task<bool> CompleteTask(Guid taskId);
+        Task<bool> DeleteTask(Guid taskId);
         Task<List<TaskModel>> GetOverdueTasks();
+        Task<TaskModel> GetTaskById(Guid taskId);
     }
 }

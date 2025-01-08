@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,36 +13,96 @@ namespace TodoList.Infrastructure.Repositories
 {
     public class TaskRepository : ITaskRepository
     {
-        ApplicationDataContext _context;
-        public TaskRepository(ApplicationDataContext context)
+        private ApplicationDataContext _context;
+        private ILogger<TaskRepository> _logger;
+        public TaskRepository(ApplicationDataContext context, ILogger<TaskRepository> logger)
         {
-            _context = context;   
+            _context = context;
+            _logger = logger;
         }
 
-        public Task AddTaskAsync(TaskModel task)
+        public async Task<TaskModel> AddTaskAsync(TaskModel task)
         {
-            throw new NotImplementedException();
+            await _context.AddAsync(task);
+            _logger.LogInformation($"task generated sucefully with Id {task.Id}");
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"An error occurred while saving task with Id {task.Id}");
+            }
+            return task;
         }
 
-        public Task DeleteTaskAsync(Guid id)
+        public async Task<bool> DeleteTaskAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var taskToDelete = await GetTaskByIdAsync(id);
+            if (taskToDelete == null) 
+            {
+                _logger.LogWarning($"Id ({id}) not found");
+                return false;
+            }
+
+            _logger.LogInformation($"Task with {id} deleted successfully!");
+            _context.Remove(taskToDelete);
+
+            try
+            {
+                return await _context.SaveChangesAsync() > 0;
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError("An error occurred while saving changes");
+                return false;
+            }
+            
         }
 
-        public Task<IEnumerable<TaskModel>> GetAllTasksAsync()
+        public async Task<IEnumerable<TaskModel>> GetAllTasksAsync()
         {
-            throw new NotImplementedException();
+            _logger.LogInformation("Fetching all tasks");
+            return await _context.Tasks.ToListAsync();
         }
 
-        public Task<TaskModel> GetTaskByIdAsync(Guid id)
+        public async Task<TaskModel> GetTaskByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
-            //_context..FindAsync(id);
+            if(id == null)
+            {
+                _logger.LogError($"Id {id} not found ");
+            }
+            return await _context.Tasks.FindAsync(id);
         }
 
-        public Task UpdateTaskAsync(TaskModel task)
+        public async Task<bool> UpdateTaskAsync(TaskModel task)
         {
-            throw new NotImplementedException();
+            var taskToUpdate = await GetTaskByIdAsync(task.Id);
+
+            if (taskToUpdate == null)
+            {
+                _logger.LogWarning($"Id {task.Id} not found");
+                return false;
+            }
+
+            taskToUpdate.Title = task.Title;
+            taskToUpdate.Description = task.Description;
+            taskToUpdate.DueDate = task.DueDate;
+            taskToUpdate.Status = task.Status;
+
+            _context.Update(taskToUpdate);
+
+            _logger.LogInformation($"Task with {task.Id} updated successfully!");
+            try
+            {
+                return await _context.SaveChangesAsync() > 0;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("An error occurred while saving changes in database");
+                return false;
+            }
+
         }
     }
 }

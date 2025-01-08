@@ -8,7 +8,7 @@ namespace TodoList.Domain.Models
 {
     public enum TaskModelStatus
     {
-        ToDo,
+        Status,
         InProgress,
         Completed,
     }

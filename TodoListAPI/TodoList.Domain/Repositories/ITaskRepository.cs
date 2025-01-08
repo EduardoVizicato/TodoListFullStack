@@ -11,8 +11,8 @@ namespace TodoList.Domain.Repositories
     {
         Task<TaskModel> GetTaskByIdAsync(Guid id);
         Task<IEnumerable<TaskModel>> GetAllTasksAsync();
-        Task AddTaskAsync(TaskModel ask);
-        Task DeleteTaskAsync(Guid id);
-        Task UpdateTaskAsync(TaskModel task);
+        Task<TaskModel> AddTaskAsync(TaskModel ask);
+        Task<bool> DeleteTaskAsync(Guid id);
+        Task<bool> UpdateTaskAsync(TaskModel task);
     }
 }

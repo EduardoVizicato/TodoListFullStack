@@ -18,6 +18,9 @@ builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddDbContext<ApplicationDataContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Logging.AddConsole();
+builder.Logging.ClearProviders();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
