@@ -1,9 +1,16 @@
 /TodoListAPI
 │
 ├── /Application (Class Library)
-│   └── CreateTaskCommand.cs
-│   └── GetTaskQuery.cs
-│   └── TaskHandler.cs
+│   ├── /DTOs  
+│    │   └── TaskDTO.cs
+│    │   └── TaskCreateDTO.cs
+│    │   └── TaskUpdateDTO.cs
+│    ├── /Mappers
+│    │   └── TaskMapper.cs
+│    ├── /Services
+│    │   └── TaskAppService.cs
+│    ├── /Interfaces
+│    │   └── ITaskAppService.cs
 │
 ├── /Domain (Class Library)
 │    ├── /Models  
